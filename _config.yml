@@ -1,0 +1,30 @@
+# Site settings
+title: Aman Adlakha Photography - 50K Productions
+email: amanadlakha@ucla.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Aman Adlakha is a Los Angeles Based photographer, studying at UCLA. He was
+  born in New Delhi, and has lived in Singapore too. He aspires to study film.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://50kproductions.com/" # the base hostname & protocol for your site
+twitter_username: aman50k
+github_username:  50kproductions
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: post
+      permalink: /:title
+
+include: ['.htaccess']
+exclude: ['README.md', 'photography_main/', 'CNAME', 'LICENSE']
+
+# Build settings
+markdown: kramdown
+permalink: none
