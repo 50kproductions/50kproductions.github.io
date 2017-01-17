@@ -1,5 +1,5 @@
 ---
-preview: /img/Landscape/optimized/Ship-On-The-Horizon_optimized.jpg
+preview: /img/Landscape/optimized/Ship-on-the-horizon_optimized.jpg
 categories: photo
 ---
 
