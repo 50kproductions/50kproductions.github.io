@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://50kproductions.com/" # the base hostname & protocol for your site
 twitter_username: aman50k
 github_username:  50kproductions
+instagram_username: aman50k
 
 sass:
   sass_dir: _sass
