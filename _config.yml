@@ -29,3 +29,7 @@ exclude: ['README.md', 'photography_main/', 'CNAME', 'LICENSE']
 # Build settings
 markdown: kramdown
 permalink: none
+
+# Info: 
+# in preview.html and films.html posts are displayed with 
+# {% for post in site.posts in %}
